@@ -1,12 +1,58 @@
-# React + Vite
+# 🎨 Color Mixture
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based tool to mix RGB colors using sliders with real-time preview and color code output.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎚️ Adjust Red, Green, and Blue channels via range sliders
+- 🔴🟢🔵 Real-time color preview box
+- 🧮 Shows RGB and HEX color codes
+- ⚡ Built with React and Tailwind CSS
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔧 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Muzamil-Fatima/color-mixture
+cd color-mixture
+````
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Run the app:
+
+```bash
+npm run dev
+```
+
+## 📁 Folder Structure
+
+```
+color-mixture/
+├── public/
+├── src/
+│   ├── App.jsx
+│   |── ColorMixer.jsx
+├── index.html
+├── tailwind.config.js
+└── package.json
+```
+
+## 🧠 Usage
+
+* Use the sliders to adjust red, green, and blue values.
+* The color box will update live.
+* You can copy the RGB or HEX code for use in your projects.
+
+## 💡 Technologies Used
+
+* React
+* Tailwind CSS
+* Vite (for fast dev server)
+
